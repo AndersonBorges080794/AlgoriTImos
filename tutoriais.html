@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -20,48 +20,62 @@
     <header id="topo"><!--INÍCIO CABEÇALHO-->
         <div><!--Iinício imagem do topo-->
             <img class="img-topo" src="img/topo_auto.png" alt="TOPO">
-        </div><!--Fim imagem do topo-->
-        
+        </div><!--Fim imagem do topo-->       
         <nav class="navbar navbar-expand-md navbar-light"><!--INÍCIO NAVEGAÇÃO-->
-            <div class="container " style="border: 1px solid red;">
+            <div class="container ">
                 <a href="index.html" class="navbar-brand"><!--INÍCIO LOGO-->
                     <img src="" alt="">
                 </a><!--FIM LOGO-->
-
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-menu">
                     <i class=""></i><!-- baixar icone do https://fontawesome.com-->
                 </button>
-
                 <div class="collapse navbar-collapse d-flex justify-content-center" id="nav-menu"><!--INÍCIO MENU-->
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item ">
-                            <a href="" class="nav-link btn btn-primary">Home</a>
+                    <ul class="navbar-nav"  >
+                        <li class="nav-item">
+                            <a href="#" class="nav-link ">Home</a>
                         </li>
-                        <li class="nav-item btn-custom">
-                            <a href="" class="nav-link">Tutoriais</a>
+                        <li class="nav-item" >
+                            <div>
+                                <button type="button" class="btn nav-link dropdown-toggle" data-toggle="dropdown">
+                                    Tutoriais
+                                </button>
+                                <div id="menu-tutorial" class="dropdown-menu">
+                                    <a href="#" class="dropdown-item nav-link">Hardware</a>
+                                    <a href="#" class="dropdown-item nav-link">Software</a>
+                                </div>
+                            </div>
                         </li>
-                        <li class="nav-item btn-custom">
-                            <a href="" class="nav-link">Sobre</a>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link ">Sobre</a>
                         </li>
-                        <li class="nav-item btn-custom">
-                            <a href="" class="nav-link">Contatos</a>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link ">Contatos</a>
                         </li>
-
                     </ul>
                 </div>
-
             </div>
-        </nav><!--FIM NAVEGAÇÃO-->
-
-    
+        </nav><!--FIM NAVEGAÇÃO-->   
     </header><!--FIM CABEÇALHO-->
 
-    <section id="principal">
-        <div class="container">
+    <section id="principal"><!--INÍCIO CORPO-->
+        <div class="container d-flex justify-content-center" style="border: 1px solid red;">
+            <div id="img-gif">
+                <img src="img/logoAlgoritimos.gif" class="d-flex justify-content-center">
+            </div>
+
 
         </div>
-    </section>
+    </section><!--FIM CORPO-->
 
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>

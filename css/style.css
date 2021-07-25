@@ -1,3 +1,5 @@
+/*ESTILIZAÇÃO DO CABEÇALHO*/
+
 body {
     background-color: #66A6FF !important;
 }
@@ -7,8 +9,29 @@ body {
     height: auto;
 }
 
+ul li .nav-link {
+    color:#E0FFFF !important;
+}
 
+ul li .nav-link:hover {
+    background-color:#fff !important;
+    /*border: 2px solid #2575FC !important;*/
+    color: #2575FC !important;
+    border-radius: 10px !important;
+}
 
+#nav-menu ul li #menu-tutorial {
+    background-color:  #66A6FF !important;
+    border: 2px solid white !important;
+}
+/*-------------------------------------------------------------------------*/
+
+/*ESTILIZAÇÃO DO CORPO*/
+
+#principal .container {
+    width: 722px !important;
+    height: auto !important;
+}
 
 
 
