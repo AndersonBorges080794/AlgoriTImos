@@ -1,0 +1,128 @@
+/*ESTILIZAÇÃO DO CABEÇALHO*/
+
+body {
+    background-color: #66A6FF !important;
+}
+
+.img-topo{
+    width: 100%;
+    height: auto;
+    filter: contrast(220%);
+    filter: brightness(-50);
+}
+
+ul li .nav-link {
+    color:#E0FFFF !important;
+}
+
+ul li .nav-link:hover {
+    background-color:#fff !important;
+    /*border: 2px solid #2575FC !important;*/
+    color: #2575FC !important;
+    border-radius: 10px !important;
+}
+
+#nav-menu ul li #menu-tutorial {
+    background-color:  #66A6FF !important;
+    border: 2px solid white !important;
+}
+
+/*-------------------------------------------------------------------------*/
+
+/*ESTILIZAÇÃO DO CORPO*/
+
+#principal .container {
+    width: 722px !important;
+    height: auto !important;
+}
+
+
+#center .container{
+    width: 722px !important;
+    height: auto !important;
+    background-color: white;
+}
+
+div#img-gif{
+    list-style-image: none;
+}
+
+footer{
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* ESTILIZAÇÃO DO SLIDE */
+img#banner1{
+    width: 100%;
+    height: auto;
+    filter: opacity(80%);
+}
+
+img#banner2{
+    width: 100%;
+    height: auto;
+    filter: opacity(80%);
+}
+
+img#banner3{
+    width: 100%;
+    height: auto;
+    filter: opacity(80%);
+}
+#mainSlider .caurousel-caption{
+    font-size: 50px;
+    color: #66A6FF;
+    margin-bottom: 30px;
+}
+
+.main-btn{
+    background-color: #66A6FF;
+    color: white;
+    text-transform: uppercase;
+    padding: 3px 3px;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    border: 5px solid transparent;
+    transition: .5s;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+    height: 90vh;
+    transition: 2s;
+}
+
+/*
+#topo .container{
+    background: #66A6FF;
+    width: 50% !important;
+    height: 64px !important;
+    border: 1px solid white;
+}
+
+#principal .container{
+    width: 50% !important;
+    margin-top: 3px !important;
+    height: 300px !important;
+    border: 1px solid white;
+}
+
+#nav-menu{
+    margin: 25% !important;
+}
+
+#nav-menu ul li .btn-custom, .nav-link{
+   border-radius: 30px;
+   border: medium solid #2575FC;
+   background-color: #fff;
+   width: 100px;
+   text-align: center;
+   margin: 0px 2px 0px 2px;
+   color: #2575FC !important;
+}
+
+*/
