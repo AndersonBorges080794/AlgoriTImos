@@ -57,29 +57,34 @@ footer{
 img#banner1{
     width: 100%;
     height: auto;
-    filter: opacity(80%);
+    filter: opacity(65%);
+    filter: saturate(120%);
 }
 
 img#banner2{
     width: 100%;
     height: auto;
-    filter: opacity(80%);
+    filter: opacity(65%);
+    filter: saturate(120%);
 }
 
 img#banner3{
     width: 100%;
     height: auto;
-    filter: opacity(80%);
+    filter: opacity(65%);
+    filter: saturate(120%);
 }
+
 #mainSlider .caurousel-caption{
-    font-size: 50px;
+    font-size: 80px;
     color: #66A6FF;
     margin-bottom: 30px;
 }
 
+
 .main-btn{
-    background-color: #66A6FF;
-    color: white;
+    color:#66A6FF;
+    background-color: white;
     text-transform: uppercase;
     padding: 3px 3px;
     width: 200px;
@@ -92,8 +97,19 @@ img#banner3{
 }
 
 #mainSlider .carousel-inner, #mainSlider .carousel-item {
-    height: 90vh;
-    transition: 2s;
+    transition: 0.5s;
+    animation-duration: 10s;
+    width: 720px;
+    color: #66A6FF;
+}
+
+h2{
+    color:white;
+    text-shadow: 
+               -1px -1px 0px #000, 
+               -1px 1px 0px #000,                    
+                1px -1px 0px #000,                  
+                1px 0px 0px #000;
 }
 
 /*

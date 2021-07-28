@@ -1,89 +1,132 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        img#topo{
-            width: auto;
-            height: 120px;
-        }
-        img#logo{
-            width: 720px;
-            height: 210px;
-        }
-        .topo{
-            width: 1340px;
-            height: 120px;
-            background-color:white;
-        }
-    
-        div#home{
-            width: 720px;
-            height: 1000px;
-            background-color: #ffffff;
-            margin-left: auto;
-            margin-right: auto; 
-            text-align: center;
-        }
 
-        div#menu{
-            width: 720px;
-            height: 50px;
-            background-color:#66a6ff;
-            text-align:left;
-            font: normal 15pt Verdana;
+    <!--CSS-->
+   <link rel="stylesheet" href="css/style.css"> 
 
-        }
-        .container{
-            width: 100%;
-            background-color:#66a6ff;
-        }
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="bootstrap\css\bootstrap.min.css">
 
-        li{
-            width: 140px;
-            height: 30px;
-            display: inline-block;
-            margin-left: 6px;
-            background-color: white;
-            border-radius: 18px;
-            text-align: center;
-            border-width: medium;
-            border-style: solid;
-            border-color: #2575FC;
-        }
-        
-        a{
-            color: #2575FC;
-            text-decoration: none;
-        }
-
-        body{
-            padding: 0;
-            margin: 0;
-        }
-    </style>
+    <title>Index</title>
+    <link rel="icon" href=""><!--ESSA TAG SERVE PARA APARECER UM ICONE NA ABA DO SITE OU SISTEMA-->
 </head>
 
 <body>
-    <div class="container">
-        <div class="topo"> 
-            <img id="topo" src="img/topo_auto.png">
-        </div>
-
-        <div id="home">
-            <div id="menu">
-                    <ul>
-                        <li><a href="home.html">Home</a></li>
-                        <li><a href="/">Tutoriais</a></li>
-                        <li><a href="/">Sobre</a></li>
-                        <li><a href="/">Contatos</a></li>
+    <header id="topo"><!--INÍCIO CABEÇALHO-->
+        <div><!--Iinício imagem do topo-->
+            <img class="img-topo" src="img/topo_auto.png" alt="TOPO">
+        </div><!--Fim imagem do topo-->       
+        <nav class="navbar navbar-expand-md navbar-light"><!--INÍCIO NAVEGAÇÃO-->
+            <div class="container ">
+                <a href="index.html" class="navbar-brand"><!--INÍCIO LOGO-->
+                    <img src="" alt="">
+                </a><!--FIM LOGO-->
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-menu">
+                    <i class=""></i><!-- baixar icone do https://fontawesome.com-->
+                </button>
+                <div class="collapse navbar-collapse d-flex justify-content-center" id="nav-menu"><!--INÍCIO MENU-->
+                    <ul class="navbar-nav"  >
+                        <li class="nav-item">
+                            <a href="#" class="nav-link ">Home</a>
+                        </li>
+                        <li class="nav-item" >
+                            <div>
+                                <button type="button" class="btn nav-link dropdown-toggle" data-toggle="dropdown">
+                                    Tutoriais
+                                </button>
+                                <div id="menu-tutorial" class="dropdown-menu">
+                                    <a href="#" class="dropdown-item nav-link">Hardware</a>
+                                    <a href="#" class="dropdown-item nav-link">Software</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link ">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link ">Contatos</a>
+                        </li>
                     </ul>
+                </div>
             </div>
-            <img id="logo" src="img/logoAlgoritimos.gif">
+        </nav><!--FIM NAVEGAÇÃO-->   
+    </header><!--FIM CABEÇALHO-->
+
+    <section id="principal"><!--INÍCIO CORPO-->
+        <div class="container d-flex justify-content-center">
+            <div id="img-gif">
+                <img src="img/logoAlgoritimos.gif" class="d-flex justify-content-center">
             </div>
-    </div>
+        </div>
+    </section>
+
+    <section id="center">
+        <div class="container d-flex justify-content-center" >
+            <div id="mainSlider" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+                    <li data-target="#mainSlider" data-slide-to="1"></li>
+                    <li data-target="#mainSlider" data-slide-to="2"></li>
+                </ol>
+                
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img id="banner1" src="img/banner1.jpg" alt="Cultura do Faça você mesmo">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>Isolamento Social faz crescer cultura do faça você mesmo</h2>
+                            <br>
+                            <a href="http://edicaodobrasil.com.br/2020/06/19/isolamento-social-fez-crescer-cultura-faca-voce-mesmo/" class="main-btn">Ler Notícia</a>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img id="banner2" src="img/banner2.jpg" alt="right to repair">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>O que é right to repair? Saiba o que pode mudar no Brasil</h2>
+                            <br>
+                            <a href="https://www.techtudo.com.br/noticias/2021/07/o-que-e-right-to-repair-saiba-como-aparece-no-brasil-e-o-que-pode-mudar.ghtml" class="main-btn">Ler Notícia</a>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item">
+                        <img id="banner3" src="img/banner3.jpg" alt="Cultura maker">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h2>O que é cultura maker e qual sua importância na educação?</h2>
+                            <br>
+                            <a href="https://blog.lyceum.com.br/o-que-e-cultura-maker/" class="main-btn">Ler Artigo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="#mainSlider" class="carousel-control-prev" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" arial-hidden="true"></span>
+                    <span class="sr-only"></span>
+                </a>
+
+                <a href="#mainSlider" class="carousel-control-next" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" arial-hidden="true"></span>
+                    <span class="sr-only"></span>
+                </a>
+
+            </div>
+        </div>
+    </section><!--FIM CORPO-->
+
+    <footer>
+        <p>&copy; AlgoriTImos </p>
+   </footer>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
+
 </html>
