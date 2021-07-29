@@ -1,0 +1,7 @@
+/*ESTILIZAÇÃO DO CORPO*/
+
+#principal .container {
+    width: 722px !important;
+    height: 500px !important;
+    background-color: aliceblue;
+}
