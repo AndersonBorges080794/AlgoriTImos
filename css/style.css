@@ -1,0 +1,32 @@
+/*ESTILIZAÇÃO NAV*/
+.custom-icon{
+    padding: 0;
+    margin: 7px -7px 0 10px;
+}
+
+#technical-users li div label{
+   /* border: 1px solid red;*/
+    margin: 3px 1px 3px 10px;
+}
+
+#technical-users li div a {
+    /*border: 1px solid green;*/
+    padding:0;
+    margin: 3px 1px 3px 4px;
+}
+
+#technical-users li div a:hover{
+    background-color: transparent;
+}
+
+/*ESTILIZAÇÃO DA SECTION TOPO(IMAGEM)*/
+#topo-section div{
+    border: 1px solid red; 
+    height: 250px; padding: 0 0 0 0;
+}
+
+#topo-section img{
+    width: 1318.2px; 
+    height: 248px;
+}
+
