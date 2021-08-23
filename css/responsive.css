@@ -1,0 +1,15 @@
+/*APLICANDO RESPONSIVIDADE NOS ICONES DO MENU*/
+@media (max-width: 575.98px) { 
+
+    .responsive-icon {
+        padding: 0px;
+        margin: 10px 5px 10px 5px; 
+        /*border: 1px solid red; 
+        background-color: white;*/
+        align-items: center;
+    }
+
+
+
+}
+

@@ -1,0 +1,87 @@
+/*ESTILIZAÇÃO NAV*/
+
+header{
+    background-image: linear-gradient(to bottom,rgb(131, 222, 245), rgb(195, 236, 247));
+}
+
+#container-header img{
+    width: 170px;
+    height: 80px;
+    background-image:  linear-gradient(to bottom,rgb(131, 222, 245), rgb(195, 236, 247));
+}
+
+#container-header{
+    padding-left: 0; 
+    padding-right: 0;
+    background-image:  linear-gradient(to bottom,rgb(131, 222, 245), rgb(195, 236, 247));
+}
+
+.custom-icon{
+    padding: 0;
+    margin: 7px -7px 0 10px;
+    color: blue;
+}
+
+#technical-users li div label{
+   /* border: 1px solid red;*/
+    margin: 3px 1px 3px 10px;
+}
+
+#technical-users li div a {
+    /*border: 1px solid green;*/
+    padding:0;
+    margin: 3px 1px 3px 4px;
+}
+
+#technical-users li div a:hover{
+    background-color: transparent;
+    
+}
+
+/*ESTILIZAÇÃO DA SECTION TOPO(IMAGEM)*/
+#topo-section div{
+    border: 1px solid orange; 
+    height: 320px; 
+    padding: 0 0 0 0;
+}
+
+#topo-section img{
+    width: 1200px; 
+    height: 320px;
+}
+
+/*ESTILIZAÇÃO DA SECTION BODY*/
+section, footer{
+    background-color: rgb(214, 245, 253);
+}
+
+#contents-section .container{
+    padding-right: 0;
+    padding-left: 0;
+    border: 1px solid black; height: 500px;
+}
+
+#row-custom{
+    margin: 10px 20px 10px 20px;
+}
+
+#row-custom .col{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.row{
+    grid-column-gap: 30px;
+}
+
+small a{
+    text-decoration: none;
+    color: rgb(10, 10, 240);
+    text-align: center;
+}
+
+p, h5{
+    text-align: center;
+}
+
+
